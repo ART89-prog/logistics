@@ -21,11 +21,7 @@
 		<meta name="msapplication-TileColor" content="#DE041D">
 		<meta name="theme-color" content="#DE041D">
 
-		<!-- Подключение шрифтов с гугла -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+		
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/fancybox.css">
 		<link rel="stylesheet" href="css/swiper-bundle.min.css">
@@ -42,32 +38,28 @@
 		<div class="wrap">
 			<div class="main">
 				<header>
-					<div class="info">
-						<div class="cont row">
-							<div class="logo">
-								<img src="images/logo.svg" alt="">
-								<img src="images/logo_part2.svg" alt="">
-							</div>
+					<div class="info">						
+						<div class="cont">																	
 
 							<button class="mob_menu_btn">
-								<svg class="icon"><use xlink:href="images/sprite.svg#ic_mob_menu"></use></svg>
+								<img src="images/src/ic_mob_menu.svg" alt="">
 							</button>
 
 							<nav class="menu row">
-								<button class="close_btn">
+								<button class="close_btn">									
 									<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
 								</button>
+											
+								<div class="item">
+									<a href="/">Главная</a>
+								</div>
 
 								<div class="item">
 									<a href="/">О компании</a>
 								</div>
 
 								<div class="item">
-									<a href="/">Коммерческое предложение</a>
-								</div>
-
-								<div class="item">
-									<a href="/">Карьера у нас</a>
+									<a href="/">Услуги</a>
 								</div>
 
 								<div class="item">
@@ -78,322 +70,84 @@
 									<a href="/">Контакты</a>
 								</div>
 							</nav>
+							
+							<div class="language">
+								<a href="#">Eng</a>
+								<a href="#">Ru</a>
+							</div>
+						</div>	
+					</div>						
+					<div class="cont">
+						<div class="bottom">
+							<a href="#" class="logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+							<div class="contacts">
+								<div class="contact">
+									<a class="contact_phone" href="tel:74959882744">+7 (495) 988-27-44</a>
+									<a class="contact_mail" href="mailto:plr-logistic@mail.com">plr-logistic@mail.com</a>
+								</div>
+								<button class="contact_callback btn" data-content="#callback_modal">
+									<span>Заказать звонок</span>
+								</button>
+							</div>
+						</div>
+					
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<a href="/">Новости</a> <span class="sep">/</span>
+							<span class="current">Номинация Constantinus в категории Международные проекты</span>
+						</div>
+
+						<div class="header_description">
+							<div class="date">2021.06.16</div>
+							<div class="title">Номинация Constantinus в категории Международные проекты</div>
 						</div>
 					</div>
 				</header>
 
-
-				<section class="first_section">
-					<div class="swiper-container">
-						<div class="swiper-wrapper">
-							<div class="slide swiper-slide">
-								<div class="cont">
-									<div class="info">
-										<div class="title">Продажа нефтепродуктов по доступным ценам</div>
-
-										<div class="desc">Более 2 000 клиентов федерального масштаба оценили качество и преимущества нашей продукции.</div>
-
-										<a href="/" class="link">
-											<span>Подробнее</span>
-											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
-										</a>
-									</div>
-								</div>
-
-								<div class="bg lozad" data-background-image="images/bg_first_section.jpg"></div>
-							</div>
-
-
-							<div class="slide swiper-slide">
-								<div class="cont">
-									<div class="info">
-										<div class="title">Продажа нефтепродуктов по доступным ценам</div>
-
-										<div class="desc">Более 2 000 клиентов федерального масштаба оценили качество и преимущества нашей продукции.</div>
-
-										<a href="/" class="link">
-											<span>Подробнее</span>
-											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
-										</a>
-									</div>
-								</div>
-
-								<div class="bg lozad" data-background-image="images/bg_first_section2.jpg"></div>
-							</div>
-
-
-							<div class="slide swiper-slide">
-								<div class="cont">
-									<div class="info">
-										<div class="title">Продажа нефтепродуктов по доступным ценам</div>
-
-										<div class="desc">Более 2 000 клиентов федерального масштаба оценили качество и преимущества нашей продукции.</div>
-
-										<a href="/" class="link">
-											<span>Подробнее</span>
-											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
-										</a>
-									</div>
-								</div>
-
-								<div class="bg lozad" data-background-image="images/bg_first_section3.jpg"></div>
-							</div>
-						</div>
-
-						<div class="swiper-button-prev"></div>
-						<div class="swiper-button-next"></div>
-
-						<div class="swiper-pagination"></div>
-					</div>
-				</section>
-
-
+					
 				<section class="articles">
 					<div class="cont">
-						<div class="block_head">
-							<div class="title">Последние новости</div>
-
-							<div class="all_link">
-								<a href="/">
-									<span>Все новости</span>
-									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
-								</a>
-							</div>
-						</div>
-
-
-						<div class="row">
-							<a href="/" class="article">
-								<div class="thumb">
-									<img data-src="images/tmp/article_thumb.jpg" alt="" class="lozad">
-									<svg class="icon"><use xlink:href="images/sprite.svg#ic_zoom"></use></svg>
-								</div>
-
-								<div class="date">17 октября 2021</div>
-
-								<div class="name">Проблемы с каучуком могут привести к росту цен на шины</div>
-							</a>
-
-							<a href="/" class="article">
-								<div class="thumb">
-									<img data-src="images/tmp/article_thumb2.jpg" alt="" class="lozad">
-									<svg class="icon"><use xlink:href="images/sprite.svg#ic_zoom"></use></svg>
-								</div>
-
-								<div class="date">4 октября 2021</div>
-
-								<div class="name">Средние цены на бензин в России за неделю выросли на 13 копеек</div>
-							</a>
-
-							<a href="/" class="article">
-								<div class="thumb">
-									<img data-src="images/tmp/article_thumb3.jpg" alt="" class="lozad">
-									<svg class="icon"><use xlink:href="images/sprite.svg#ic_zoom"></use></svg>
-								</div>
-
-								<div class="date">15 сентября 2021</div>
-
-								<div class="name">Импорт нефти в Китай в сентябре по сравнению с августом вырос в 1,8 раза</div>
-							</a>
-
-							<a href="/" class="article">
-								<div class="thumb">
-									<img data-src="images/tmp/article_thumb4.jpg" alt="" class="lozad">
-									<svg class="icon"><use xlink:href="images/sprite.svg#ic_zoom"></use></svg>
-								</div>
-
-								<div class="date">2 сентября 2021</div>
-
-								<div class="name">Производство ПЭТ-изделий переводят на вторсырье</div>
-							</a>
-						</div>
-
-
-						<div class="mob_all_link">
-							<a href="/">
-								<span>Все новости</span>
-								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
-							</a>
-						</div>
-					</div>
-				</section>
-
-
-				<section class="our_production">
-					<div class="cont row">
-						<div class="data">
-							<div class="block_head">
-								<div class="title">Наша продукция</div>
-							</div>
-
-							<div class="text_block">
-								<p>«ЮгНефтеПродукт» - одна из крупнейших российских нефтяных компаний, в составе которой динамично развиваются нефтегазодобыча, нефтепереработка, нефтегазохимия, шинный комплекс, сеть АЗС, электроэнергетика, разработка и производство оборудования для нефтегазовой отрасли и блок сервисных структур. «ЮгНефтеПродукт» также участвует в капитале компаний финансового сектора. «ЮгНефтеПродукт» является одной из крупнейших российских публичных компаний с рыночной капитализацией более 28 млрд. долларов США на конец 2019 года.</p>
-
-								<p>Обеспечение поступательного развития Компании как одного из крупнейших вертикально-интегрированных российских производителей нефти и газа.</p>
-							</div>
-
-							<div class="link">
-								<a href="/">
-									<span>Смотреть цены</span>
-									<svg class="icon"><use xlink:href="images/sprite.svg#ic_wallet"></use></svg>
-								</a>
-							</div>
-						</div>
-
-						<div class="image">
-							<img data-src="images/our_production_img.jpg" alt="" class="lozad">
-						</div>
-					</div>
-
-					<img data-src="images/big_logo.svg" alt="" class="logo lozad">
-				</section>
-
-
-				<section class="about">
-					<div class="cont">
-						<div class="block_head border">
-							<div class="title">О компании</div>
-
-							<div class="all_link">
-								<a href="/">
-									<span>Подробнее</span>
-									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
-								</a>
-							</div>
-						</div>
-
-
 						<div class="text_block">
-							<div class="columns">
-								<p>«ЮгНефтеПродукт» — глобальная энергетическая компания. Основные направления деятельности — геологоразведка, добыча, транспортировка, хранение, переработка и реализация газа, газового конденсата и нефти, реализация газа в качестве моторного топлива, а также производство и сбыт тепло- и электроэнергии.</p>
-
-								<p>«ЮгНефтеПродукт» видит свою миссию в надежном, эффективном и сбалансированном обеспечении потребителей природным газом, другими видами энергоресурсов и продуктами их переработки.</p>
-
-								<p>Стратегической целью «ЮгНефтеПродукт» является укрепление статуса лидера среди глобальных энергетических компаний посредством диверсификации рынков сбыта, обеспечения энергетической безопасности и устойчивого развития, роста эффективности деятельности, использования научно-технического потенциала.</p>
-
-								<p class="mob_hide">«ЮгНефтеПродукт» является мировым лидером по добыче природного газа. На него приходится 12% мировой и 68% российской добычи газа. В настоящее время компания активно реализует масштабные проекты по освоению газовых ресурсов полуострова Ямал, арктического шельфа, Восточной Сибири и Дальнего Востока, а также ряд проектов по разведке и добыче углеводородов за рубежом.</p>
-
-								<p class="mob_hide">«ЮгНефтеПродукт» — надежный поставщик газа российским и зарубежным потребителям. Компании принадлежит крупнейшая в мире газотранспортная система, протяженность которой составляет 175,2 тыс. км на территории России. На внутреннем рынке «ЮгНефтеПродукт» реализует свыше половины продаваемого газа. Кроме того, компания поставляет газ в более чем 30 стран ближнего и дальнего зарубежья.</p>
-							</div>
-						</div>
-
-
-						<div class="mob_all_link">
-							<a href="/">
-								<span>Подробнее</span>
-								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right"></use></svg>
-							</a>
+							<img class="right" src="images/tmp/text_block_img.jpg" alt="">
+							<h2>Заголовок Н2</h2>							
+							<p>Компания  работает на рынке с 2008 года. Наши основные усилия сосредоточены на планировании и автоматизации складов. Мы основываем все новые решения на опыте, накопленном в течение многих лет в различных отраслях. Вы можете увидеть наши завершенные проекты и убедиться во всестороннем использовании складской логистики.</p>
+							<p>С самого начала для нас важны определенные ценности, благодаря которым сотрудничество с нашими клиентами складывается благополучно и завершается успехом. Финансовый консалтинг потому и имеет второе название – технический импорт товаров и экспорт грузов, потому что позволяет оценить и определить результаты конкретно для импорта/экспорта компании, проследить ситуацию.</p>
+							<p>Финансовый консалтинг потому и имеет второе название – технический импорт товаров и экспорт грузов, потому что позволяет оценить и определить результаты конкретно для импорта/экспорта компании, проследить ситуацию, которая происходит на международном рынке, спрогнозировать экономические позиции рынка сбыта. Кроме этого подбирается наиболее эффективная и выгодная политика импорта/экспорта для компании, план рационального распределения финансовых средств и т.д.</p>
+							<p>Финансовый консалтинг способен оптимизировать работу компании, вывести ее на новый уровень. Кроме этого, фирма получает возможность экспортировать/импортировать товары по наиболее выгодным ценам и срокам. Финансовый консалтинг потому и имеет второе название – технический импорт товаров и экспорт грузов, потому что позволяет оценить и определить результаты конкретно для импорта/экспорта компании, проследить ситуацию, которая происходит на международном рынке, спрогнозировать экономические позиции рынка сбыта. Кроме этого подбирается наиболее эффективная и выгодная политика импорта/экспорта для компании, план рационального распределения финансовых средств и т.д.</p>
+							<p>Финансовый консалтинг способен оптимизировать работу компании, вывести ее на новый уровень. Кроме этого, фирма получает возможность экспортировать/импортировать товары по наиболее выгодным ценам и срокам.</p>
 						</div>
 					</div>
 				</section>
+
 			</div>
 
 
 			<footer>
-				<div class="cont row">
-					<div class="col_left">
+				<div class="cont">
+					<div class="bottom">
 						<div class="logo">
 							<img src="images/logo.svg" alt="">
-							<img src="images/logo_part2.svg" alt="">
 						</div>
-
-						<div class="socials">
-							<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
-								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
-							</a>
-
-							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
-								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
-							</a>
-
-							<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
-								<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
-							</a>
-
-							<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
-								<svg class="icon"><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
-							</a>
+						<div class="contacts">
+							<div class="contact">
+								<a class="contact_phone" href="tel:74959882744">+7 (495) 988-27-44</a>
+								<a class="contact_mail" href="mailto:plr-logistic@mail.com">plr-logistic@mail.com</a>
+							</div>
+							<button class="btn contact_callback" data-content="#callback_modal">
+								<span>Заказать звонок</span>
+							</button>
 						</div>
-
-						<div class="privacy_policy_link">
-							<a href="/">Политика конфиденциальности</a>
+					</div>
+					<div class="info">
+						<div class="adres">г. Москва, ул. Радио, д. 24,<br> Бизнес центр «Яуза тауэр»</div>
+						<div class="info_link">
+							<a href="#">Политика конфиденциальности</a>
+							<a href="#">Карта сайта</a>
 						</div>
 					</div>
 
-
-					<div class="menu">
-						<div><a href="/">О компании</a></div>
-						<div><a href="/">Коммерческое предложение</a></div>
-						<div><a href="/">Карьера у нас</a></div>
-						<div><a href="/">Новости</a></div>
-						<div><a href="/">Контакты</a></div>
-					</div>
-
-
-					<div class="contacts">
-						<div class="item">
-							<div class="title">Адрес</div>
-
-							<div class="location">117218, г. Москва,<br> ул. Кржижановского, д. 29<br> корпус 5, этаж 4, пом. 1, ком. 6</div>
-
-							<div class="icon">
-								<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
-							</div>
-						</div>
-
-						<div class="item">
-							<div class="title">Телефон</div>
-
-							<div class="phone">
-								<a href="tel:+74959818062">+7 (495) 981-80-62</a>
-							</div>
-
-							<div class="icon">
-								<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
-							</div>
-						</div>
-
-						<div class="item">
-							<div class="title">Телефон</div>
-
-							<div class="phone">
-								<a href="tel:+79196150701">+7 (919) 615-07-01</a>
-							</div>
-
-							<div class="icon">
-								<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
-							</div>
-						</div>
-
-						<div class="item">
-							<div class="title">Для предложений</div>
-
-							<div class="email">
-								<a href="mailto:info-germany@riverberg.com">info-germany@riverberg.com</a>
-							</div>
-
-							<div class="icon">
-								<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
-							</div>
-						</div>
-
-						<div class="item">
-							<div class="title">Для предложений</div>
-
-							<div class="email">
-								<a href="mailto:info-germany@riverberg.com">info-germany@riverberg.com</a>
-							</div>
-
-							<div class="icon">
-								<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
-							</div>
-						</div>
-
-						<button class="feedback_btn">
-							<span>Отправить сообщение</span>
-							<svg class="icon"><use xlink:href="images/sprite.svg#ic_message"></use></svg>
-						</button>
-					</div>
 				</div>
 			</footer>
 
@@ -405,6 +159,34 @@
 		<div class="supports_error">
 			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
 		</div>
+
+
+
+		<section class="modal modal_callback" id="callback_modal">
+			<div class="modal_title">Заказать звонок</div>
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="name" value="" class="input required" placeholder="Имя *">
+					</div>
+				</div>
+				<div class="line">
+					<div class="field">
+						<input type="tel" name="phone" value="" class="input required" placeholder="Телефон *">
+					</div> 	
+				</div>						
+				<button type="submit" class="btn modal_btn">
+					<span>Отправить</span>
+					<img src="images/src/ic_arrow.svg" alt="">
+				</button>
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="agree_check" checked="">
+						<label for="agree_check">* Я соглашаюсь на обработку моих персональных данных компанией Lubandy.Logistic.Services AUSTRIA GmbH ,находящейся по адресу Blumau, Bierbaum an der Safen 7/1, для ответа на запрос по электронной почте и/или по телефону. Дополнительную информацию о обработке персональных данных можно найти в политике конфиденциальности.</label>
+					</div>
+				</div>				           
+			</form>            
+		</section>
 
 
 		<!-- Подключение javascript файлов -->
