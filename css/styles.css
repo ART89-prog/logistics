@@ -661,27 +661,6 @@ header .info .cont {
     padding-top: 10px;
     position: relative;
 }
-header .info .language {
-    display: flex;
-    align-items: center;
-    z-index: 2;
-}
-header .info .language a:first-child {
-    margin-right: 20px;
-}
-header .info .language a {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    transition: color .4s;
-}
-header .info .language a:hover {
-    color: #476FFD;
-}
 .bottom {
     margin-top: 37px;
     margin-bottom: 53px;

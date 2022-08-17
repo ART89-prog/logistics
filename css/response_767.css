@@ -1,10 +1,10 @@
 @media print, (max-width: 767px) {
 
 
-    footer .bottom .logo img {
+    .bottom .logo img {
         width: 200px;
     }
-    footer .bottom .contacts .contact_mail {
+    .bottom .contacts .contact_mail {
         font-size: 12px;
     }
     footer .adres {
@@ -21,7 +21,7 @@
         flex-direction: column;
         align-items: center;        
     }
-    footer .bottom {
+    .bottom {
         flex-direction: column;
         margin-bottom: 30px;
     }
@@ -33,13 +33,13 @@
     footer .adres {
         margin-right: 0;
     }
-    footer .bottom .contacts .contact {
+    .bottom .contacts .contact {
         text-align: center;
     }
-    footer .bottom .contacts {
+    .bottom .contacts {
         margin-top: 20px;
     }
-    footer .bottom .contacts .contact_phone {
+    .bottom .contacts .contact_phone {
         text-align: end;
     }
 

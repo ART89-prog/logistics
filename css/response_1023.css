@@ -79,13 +79,13 @@
     .articles {
         padding: 50px 0;
     }
-    footer .bottom .logo {
+    .bottom .logo {
         margin-right: 15px;
     }
-    footer .bottom .logo img {
+    .bottom .logo img {
         width: 250px;
     }
-    footer .bottom .contacts .contact_phone {
+    .bottom .contacts .contact_phone {
         font-size: 18px;
         line-height: 22px;
         margin-bottom: 6px;
