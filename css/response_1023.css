@@ -25,7 +25,7 @@
         min-height: -webkit-fill-available;
         min-height:         fill-available;
         margin: 0;
-        padding: 48px 20px;
+        padding: 65px 20px;
 
         transition: transform .3s linear;
         transform: translateX(-100%);
@@ -60,12 +60,28 @@
         display: block;
 
         height: auto;
-        padding: 8px 0;
+        padding: 17px 0;
 
         text-align: left;
         color: #000;
     }
-
+    .breadcrumbs {
+        font-size: 14px;
+    }
+    .breadcrumbs a {
+        font-size: 14px;
+    }
+    .breadcrumbs .sep {
+        font-size: 14px;
+    }
+    .header_description {
+        margin-top: 70px;
+    }
+    .header_description .title {
+        margin-top: 20px;
+        font-size: 35px;
+        line-height: 1.4;
+    }
 
     .text_block img {
         width: 350px;
@@ -75,6 +91,9 @@
         font-size: 28px;
         line-height: 32px;
         margin-bottom: 9px;
+    }
+    .text_block p {
+        margin-bottom: 20px;
     }
     .articles {
         padding: 50px 0;

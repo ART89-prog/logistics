@@ -772,7 +772,7 @@ header .menu .close_btn
     color: #000;
 
     position: absolute;
-    top: 23px;
+    top: 18px;
     left: 23px;
 
     display: none;
@@ -936,6 +936,7 @@ header .menu .item.current-menu-item > a:after
     width: 585px;
     height: 375px;
     object-fit: cover;
+    margin-top: -30px;
 }
 .text_block h2 {
     font-weight: 700;
