@@ -1,14 +1,19 @@
-@media (max-width: 479px)
-{
-    /*-------------------
-        Global styles
-    -------------------*/
-    :root
-    {
-        --font_size: 14px;
-        --font_size_title: 21px;
-    }
+@media (max-width: 479px) {
 
+    footer .btn {
+        width: 100%;
+    }
+    footer .bottom .contacts {
+        flex-direction: column;
+        width: 100%;
+    }
+    footer .bottom .contacts .contact {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    footer .bottom .logo img {
+        width: 250px;
+    }
 
 
    

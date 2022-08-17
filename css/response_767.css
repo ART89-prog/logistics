@@ -1,34 +1,49 @@
-@media print, (max-width: 767px)
-{
-    /*-------------------
-        Global styles
-    -------------------*/
-    :root
-    {
-        --font_size: 14px;
-        --font_size_title: 25px;
+@media print, (max-width: 767px) {
+
+
+    footer .bottom .logo img {
+        width: 200px;
+    }
+    footer .bottom .contacts .contact_mail {
+        font-size: 12px;
+    }
+    footer .adres {
+        font-size: 15px;
+        line-height: 18px;
+        margin-right: 15px;
+    }
+    footer .info_link a {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    footer .info_link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
+    footer .bottom {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    footer .info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .adres {
+        margin-right: 0;
+    }
+    footer .bottom .contacts .contact {
+        text-align: center;
+    }
+    footer .bottom .contacts {
+        margin-top: 20px;
+    }
+    footer .bottom .contacts .contact_phone {
+        text-align: end;
     }
 
 
-    /*------------
-        Header
-    ------------*/
-    header
-    {
-        padding: 10px 0;
-    }
-
-
-    header .logo img
-    {
-        height: 36px;
-    }
-
-    header .logo img + img
-    {
-        height: 24px;
-        margin-left: 10px;
-    }
 
 
 

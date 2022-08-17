@@ -157,7 +157,7 @@ input[type=number]
     --bg: #fff;
     --scroll_width: 17px;
     --text_color: #2F3547;
-    --font_size: 20px;
+    --font_size: 17px;
     --font_size_title: 46px;
     --font_family: 'Gilroy';
 }
@@ -962,15 +962,15 @@ header .menu .item.current-menu-item > a:after
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-    color: #2F3547;   
+    color: var(--text_color);   
     margin-bottom: 13px;
 }
 .text_block p {
     margin-bottom: 28px;
     font-weight: 400;
-    font-size: 17px;
+    font-size: var(--font_size);
     line-height: 26px;    
-    color: #2F3547;  
+    color: var(--text_color);  
 }
 .text_block p:last-child {
     margin-bottom: 0;
@@ -981,7 +981,7 @@ header .menu .item.current-menu-item > a:after
 
 footer {
     padding: 75px 0 65px;
-    background: #2F3547;
+    background: var(--text_color);
 }
 footer .info {
     display: flex;
@@ -1022,7 +1022,7 @@ footer .bottom {
     font-size: 32px;
     line-height: 39px;
     text-align: center;
-    color: #2F3547;
+    color: var(--text_color); 
 }
 .modal .line {
     width: 100%;
@@ -1094,7 +1094,7 @@ footer .bottom {
     font-size: 12px;
     line-height: 14px;
     
-    color: #2F3547;
+    color: var(--text_color); 
 
     position: relative;
 
