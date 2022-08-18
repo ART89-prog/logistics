@@ -668,18 +668,18 @@ header .info .cont {
     align-items: center;
     justify-content: space-between;
 }
-.bottom .contacts {
+.contacts {
     display: flex;
     align-items: center;    
 }
-.bottom .contacts .contact {
+.contacts .contact {
     text-align: end;
     margin-right: 27px;
 }
-.bottom .contacts .contact a {
+.contacts .contact a {
     display: block;    
 }
-.bottom .contacts .contact_phone {
+.contacts .contact_phone {
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
@@ -688,7 +688,7 @@ header .info .cont {
     text-decoration: none;
     margin-bottom: 8px;
 }
-.bottom .contacts .contact_mail {
+.contacts .contact_mail {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -711,6 +711,9 @@ header .info .cont {
 }
 .btn:hover {
     background: #526cca;
+}
+header .logo-mob {
+    display: none;
 }
 
 
@@ -745,6 +748,7 @@ header .mob_menu_btn
     width: 30px;
     height: 28px;
     margin-right: 0px;
+    margin-left: auto;
 
     justify-content: center;
     align-items: center;
@@ -753,6 +757,9 @@ header .mob_menu_btn
     z-index: 8;
 }
 
+header .contacts-mob {
+    display: none;
+}
 header .mob_menu_btn .icon
 {
     display: block;
