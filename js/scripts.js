@@ -43,7 +43,7 @@ $(() => {
     })
 
 
-    $('body').on('click', '.contact_callback', function (e) {
+    $('body').on('click', '.contact_callback-click', function (e) {
         e.preventDefault()
 
         Fancybox.close()

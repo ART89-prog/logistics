@@ -48,5 +48,94 @@
     }
 
 
+    .home-page header .btn {
+        width: 100%;
+        margin-top: 15px;
+        height: 60px;
+    }
+    .home-page header {
+        padding-bottom: 40px;
+    }
+
+    .block {
+        padding: 30px 0;
+    }
+    .block_head {
+        flex-direction: column;
+    }
+    .block_head .title {
+        width: 100%;
+    }
+    .block_head .view-all {
+        width: 100%;
+        height: 50px;
+        margin-top: 15px;
+    }
+    .services_items {
+        margin-bottom: -20px;
+        margin-left: 0px;
+    }
+    .services_items > * {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .advantages_items {
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    .advantages_items > * {
+        margin-left: 0px;
+        margin-bottom: 20px; 
+        width: 100%;
+    }
+    .about .left {
+        padding: 30px 0;
+    }
+    .about .read-more {
+        width: 100%;
+        height: 50px;
+    }
+    .news_items {
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    .news_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .contacts_right {
+        padding: 30px 20px 20px;
+    }
+    .contacts-block .block_head .title {
+        margin-bottom: 10px;
+    }
+    .block_head .text {
+        font-size: 16px;
+        line-height: 130%;
+    }
+    .contacts-block form .btn {
+        width: 100%;
+        height: 65px;
+        margin-top: 0;
+    }
+    .contacts-block .map_wrap {
+        height: 280px;
+    }
+    .block_head .title {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .block_head {
+        margin-bottom: 20px;
+    }
+    .block_head .view-all {
+        margin-top: 8px;
+    }
+   
+    
+    
+
    
 }

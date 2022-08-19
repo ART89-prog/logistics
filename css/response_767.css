@@ -90,6 +90,73 @@
         text-align: end;
     }
 
+    .home-page .header_description .title {
+        font-size: 35px;
+        line-height: 44px;
+        margin-bottom: 28px;
+    }
+    .home-page .header_description {
+        margin-top: 50px;
+    }
+    .home-page header {
+        padding-bottom: 50px;
+    }
+    .home-page .header_description .title {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 22px;
+    }
+
+    .home-page header .btn {
+        width: 250px;
+        margin-top: 15px;
+        height: 60px;
+    }
+    .block_head .title {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .block_head .view-all {
+        width: 190px;
+        height: 50px;
+    }
+    .block {
+        padding: 40px 0;
+    }
+    .services_items > * {
+        width: calc(100%/2 - 20px);
+    }
+    .advantages_items > * {
+        width: calc(100%/2 - 20px);
+    }
+    .block_head .title {
+        width: calc(100% - 200px);
+    }
+    .news_items > * {
+        width: calc(100%/2 - 20px);
+    }
+    .news_item-info .title {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .news_item-info {
+        padding: 20px 16px;
+    }
+    .news_item-info .text {
+        margin-bottom: 12px;
+    }
+    .contacts_right {
+        padding: 40px 20px 20px;
+    }
+    .contacts-block .map_wrap {
+        height: 350px;
+    }
+    .about .left {
+        padding: 40px 0;
+    }
+
+
 
 
 

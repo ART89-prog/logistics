@@ -6,6 +6,18 @@
         height: 308px;
     }
 
+    .home-page .header_description .title {
+        font-size: 46px;
+        line-height: 58px;
+        margin-bottom: 44px;
+    }
+    .home-page .header_description {
+        margin-top: 90px;
+    }
+    .home-page header {
+        padding-bottom: 70px;
+    }
+
 
 
 
