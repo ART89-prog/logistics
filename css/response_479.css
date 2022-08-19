@@ -133,6 +133,21 @@
     .block_head .view-all {
         margin-top: 8px;
     }
+
+    .btns {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .btns .btn:first-child {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .btns .btn {
+        width: 100%;
+    }
+    .service-page header .btn {
+        margin-top: 5px;
+    }
    
     
     

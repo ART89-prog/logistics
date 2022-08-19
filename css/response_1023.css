@@ -312,6 +312,57 @@
         left: 0;
     }
 
+    .content .cont {
+        flex-direction: column;
+    }
+    .content aside {
+        width: 100%;
+    }
+    .content aside ul {
+        display: flex;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .content aside ul::-webkit-scrollbar {
+        width: 0;
+      }
+    .content aside ul li {
+        margin-right: 20px;
+    }
+    .content aside ul li:last-child {
+        margin-right: 0;
+    }
+    .content aside ul li a:hover {
+        border-left: none;
+        background: #F0F2FA;
+        color: #2F3547;
+    }
+    .content .info {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .content aside ul li a {
+        margin-bottom: 0;
+    }
+    .btns .btn:first-child {
+        margin-right: 10px;
+    }
+    .btns .btn {
+        height: 60px;
+    }
+    .service-page header {
+        padding-bottom: 50px;
+    }
+    .accordion {
+        margin-top: 40px;
+    }
+    .accordion_title {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
 
 
     
