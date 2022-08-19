@@ -160,6 +160,11 @@
         font-size: 35px;
         line-height: 1.4;
     }
+    .header_description .text {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 40px;
+    }
 
     .text_block img {
         width: 350px;
@@ -361,6 +366,63 @@
         font-size: 28px;
         line-height: 32px;
         margin-bottom: 20px;
+    }
+
+    .clients_items {
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+    .clients_items > * {
+        margin-left: 15px;
+        margin-bottom: 15px;
+        width: calc(100%/3 - 15px);
+    }
+
+    .contacts-page header .info {
+        background: #5f78db;
+    }
+    .contacts-page header {
+        padding-bottom: 0px;
+    }
+    .contact-block .cont {
+        flex-direction: column;
+    }
+    .contact-block .map_wrap {
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+        height: 400px;
+    }
+    .contact_left {
+        padding-bottom: 40px;
+    }
+    .contact-block_items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contact-block_items > * {
+        margin-right: 30px;
+    }
+    .contact-us form .line:first-child {
+        flex-wrap: wrap;
+    }
+    .contact-us form .line:first-child > * {
+        width: calc(100%/2 - 15px);
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .contact-us form .line:last-child {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .contact-us form .line:last-child .btn {
+        width: 380px;
+        width: calc(100%/2 - 30px);
+    }
+    .contact-us form .line.agree {
+        margin-left: 15px;
+        margin-top: 20px;
     }
 
 

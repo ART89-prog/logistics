@@ -3,8 +3,10 @@
 {
     color: #de041d;
 
-    top: auto;
-    bottom: 0;
+    /* top: auto;
+    bottom: 0; */
+
+    top: 9px;
 
     display: block;
 
@@ -20,7 +22,7 @@
 
 .swiper-button-prev
 {
-    right: 60px;
+    right: 50px;
     left: auto;
 }
 
@@ -58,14 +60,6 @@
     transform: rotate(-225deg);
 }
 
-
-.swiper-button-next:hover,
-.swiper-button-prev:hover
-{
-    color: #fff;
-
-    background: #de041d;
-}
 
 
 

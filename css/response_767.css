@@ -158,7 +158,6 @@
     .accordion_title {
         font-size: 24px;
         line-height: 28px;
-        margin-bottom: 12px;
     }
     .accordion .accordion_item .head .title {
         font-size: 18px;
@@ -179,7 +178,90 @@
         margin-bottom: 20px;
     } 
 
+    .about-page header {
+        padding-bottom: 50px;
+    }
 
+    .clients_items > * {
+        width: calc(100%/2 - 15px);
+    }
+
+    .reviews .slide {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .reviews .slide_info {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .reviews .block_head .title {
+        width: calc(100% - 150px);
+        text-align: start;
+        margin-right: auto;
+    }
+    .news-page .news {
+        padding-bottom: 50px;
+    }
+    .pagination {
+        margin-top: 40px;
+    }
+    .contact-us form .line:first-child {
+        margin-left: 20px;
+        margin-right: -20px;
+    }
+    .contact-us form .line:first-child > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .contact-us form .line:last-child .btn {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    .contact-block_items {
+        flex-direction: column;
+    }
+    .contact-block_item .icon {
+        width: 50px;
+        height: 50px;
+    }
+    .contact-block_item .name {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 4px;
+    }
+    .contact-block_item .phone,
+    .contact-block_item .email,
+    .contact-block_item .adress {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .contact-us .block_head .text {
+        font-size: 16px;
+    } 
+    .contact-us .block_head .title {
+        margin-bottom: 12px;
+    }
+    .contact-block_items > * {
+        margin-right: 0px;
+    }
+    .contact-block_item {
+        margin-bottom: 20px;
+    }
+    .contact-block .block_head {
+        margin-bottom: 20px;
+    }
+    .contact-us form .line:last-child .btn {
+        height: 60px;
+    }
+    .contact-block .map_wrap {
+        height: 300px;
+    }
+    .contacts-page .breadcrumbs {
+        margin-bottom: 25px;
+    }
 
 
 

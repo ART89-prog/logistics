@@ -11,7 +11,7 @@ $(() => {
             slidesPerView: 1,
             spaceBetween: 30,
             breakpoints: {                
-                767: {
+                1023: {
                   slidesPerView: 2,
                   spaceBetween: 20
                 }
