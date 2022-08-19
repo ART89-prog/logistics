@@ -1841,3 +1841,33 @@ form input[type=checkbox]:checked + label:after {
 .contact-us form input[type=checkbox] + label:before {
     background: #fff;
 }
+
+
+.contacts-page .breadcrumbs {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #2F3547;
+}
+.contacts-page .breadcrumbs a {
+    color: #2F3547;
+}
+.contacts-page .breadcrumbs .sep {
+    color: #2F3547;
+}
+
+.contacts-page .contact-block .block_head {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contacts-page .contact-block .block_head .title {
+    margin-bottom: 12px;
+}
+.contacts-page .contact-block .block_head .text {
+    max-width: 450px;
+}
+
+
+.icon {
+    width: 17px;
+    height: 14px;
+}
