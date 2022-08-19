@@ -1,7 +1,7 @@
 $(() => {
     // Основной слайдер на главной
-    if ($('.first_section .swiper-container').length) {
-        new Swiper('.first_section .swiper-container', {
+    if ($('.reviews .swiper-container').length) {
+        new Swiper('.reviews .swiper-container', {
             loop: true,
             speed: 750,
             watchSlidesVisibility: true,
@@ -9,12 +9,13 @@ $(() => {
             slideVisibleClass: 'visible',
             spaceBetween: 0,
             slidesPerView: 1,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-                clickable: true,
-                bulletActiveClass: 'active'
-            },
+            spaceBetween: 30,
+            breakpoints: {                
+                767: {
+                  slidesPerView: 2,
+                  spaceBetween: 20
+                }
+              },        
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev'
