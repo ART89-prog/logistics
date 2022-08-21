@@ -357,9 +357,6 @@ button {
     background: #FFF;
 }
 
-.accordion .accordion_item.active .data {
-    display: block;
-}
 
 .accordion .accordion_item .head .title {
     font-weight: 700;
@@ -396,30 +393,10 @@ button {
     display: none;
     margin-right: 60px;
 }
-
-.accordion .tabs~.accordion_item {
-    padding: 0;
-
-    border: none;
-    background: none;
+.accordion .accordion_item.active .data {
+    margin-right: 60px;
 }
 
-.accordion .tabs~.accordion_item+.accordion_item {
-    margin: 0;
-}
-
-.accordion .tabs~.accordion_item .head {
-    display: none;
-
-    border-bottom: 1px solid #efefef;
-    background: #fbfbfb;
-}
-
-.accordion .tabs~.accordion_item .data {
-    display: block;
-
-    margin: 0;
-}
 
 
 
@@ -1119,7 +1096,7 @@ form input[type=checkbox]:checked+label:after {
 .btn {
     font-weight: 600;
     font-size: 15px;
-    line-height: 76px;
+    line-height: 1;
     color: #FFFFFF;
     background: #476FFD;
     border-radius: 12px;
@@ -1180,13 +1157,18 @@ form input[type=checkbox]:checked+label:after {
     margin-bottom: -53px;
     margin-left: -30px;
 }
-
-.services_items>* {
+.services_item {
+    text-decoration: none;
+    transition: all .4s;
+}
+.services_items > * {
     width: calc(100%/3 - 30px);
     margin-bottom: 53px;
     margin-left: 30px;
 }
-
+.services_item:hover .services_item-title {
+    color: #476FFD;
+} 
 .services_item-title {
     font-weight: 700;
     font-size: 20px;
@@ -1299,7 +1281,7 @@ form input[type=checkbox]:checked+label:after {
 .about_title {
     font-weight: 700;
     font-size: var(--font_size_title);
-    line-height: 56px;
+    line-height: 1.2;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
@@ -1766,7 +1748,7 @@ form input[type=checkbox]:checked+label:after {
 
 
 .news-page header {
-    padding-bottom: 32px;
+    padding-bottom: 28px;
     background-image: linear-gradient(278.08deg, rgba(85, 109, 193, 0.24) -13.7%, rgba(17, 18, 23, 0.93) 97.79%), url(../images/tmp/news_bg.jpg);
 }
 
@@ -2096,12 +2078,31 @@ form input[type=checkbox]:checked+label:after {
 .btn.bg-white:hover {
     color: #fff;
 }
-
+.swiper-button-next, 
+.swiper-button-prev {
+    width: 33px;
+    height: 33px;
+    position: relative;
+}
 .swiper-button-next .icon svg,
 .swiper-button-prev .icon svg {
     fill: #C5C9D5;
+    width: 33px;
+    height: 33px;
 }
 
+.swiper-button {
+    display: flex;
+    align-items: center;    
+}
+.swiper-button-prev,
+.swiper-button-next {
+    right: 0;
+    left: 0;
+}
+.swiper-button-prev {
+    margin-right: 18px;
+}
 .swiper-button-next .icon svg:hover,
 .swiper-button-prev .icon svg:hover {
     fill: #476FFD;

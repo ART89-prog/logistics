@@ -49,12 +49,12 @@ $(() => {
 			$accordion = $(this).closest('.accordion')
 
 		if ($item.hasClass('active')) {
-			$item.removeClass('active').find('.data').slideUp(300)
+			$item.removeClass('active').find('.data').slideUp(400)
 		} else {
 			$accordion.find('.accordion_item').removeClass('active')
-			$accordion.find('.data').slideUp(300)
+			$accordion.find('.data').slideUp(400)
 
-			$item.addClass('active').find('.data').slideDown(300)
+			$item.addClass('active').find('.data').slideDown(400)
 		}
 	})
 

@@ -3,6 +3,7 @@
     :root
     {
         --font_size: 15px;
+        --font_size_title: 36px;
     }
 
   
@@ -226,7 +227,6 @@
         margin-top: 10px;
     }
     .block_head .title {
-        font-size: 36px;
         line-height: 47px;
     }
     .block_head .view-all {
@@ -315,6 +315,10 @@
         height: 500px;
         transform: translateZ(0);
         left: 0;
+    }
+
+    .news-page header {
+        padding-bottom: 0px;
     }
 
     .content .cont {

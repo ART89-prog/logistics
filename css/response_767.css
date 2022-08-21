@@ -1,5 +1,10 @@
 @media print, (max-width: 767px) {
 
+    :root
+    {
+        --font_size_title: 30px;
+    }
+
     .header_description .title {
         margin-top: 18px;
         font-size: 28px;
@@ -113,12 +118,16 @@
         height: 60px;
     }
     .block_head .title {
-        font-size: 30px;
         line-height: 42px;
     }
     .block_head .view-all {
-        width: 190px;
+        width: 50px;
         height: 50px;
+        padding: 0 10px;
+        justify-content: center;
+    }
+    .block_head .view-all span {
+        display: none;
     }
     .block {
         padding: 40px 0;
@@ -129,8 +138,12 @@
     .advantages_items > * {
         width: calc(100%/2 - 20px);
     }
-    .block_head .title {
-        width: calc(100% - 200px);
+    .advantages .block_head .title {
+        text-align: center;
+    }
+    .services .block_head .title,
+    .news .block_head .title {
+        width: calc(100% - 110px);
     }
     .news_items > * {
         width: calc(100%/2 - 20px);
@@ -154,6 +167,9 @@
     }
     .about .left {
         padding: 40px 0;
+    }
+    .about_title {
+        margin-bottom: 12px;
     }
     .accordion_title {
         font-size: 24px;
@@ -202,7 +218,7 @@
     }
     .news-page .news {
         padding-bottom: 50px;
-    }
+    } 
     .pagination {
         margin-top: 40px;
     }
@@ -261,6 +277,10 @@
     }
     .contacts-page .breadcrumbs {
         margin-bottom: 25px;
+    }
+
+    .swiper-button-prev {
+        margin-right: 10px;
     }
 
 
